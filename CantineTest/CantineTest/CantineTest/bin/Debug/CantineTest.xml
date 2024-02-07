@@ -1,0 +1,706 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CantineTest
+</name>
+</assembly>
+<members>
+<member name="T:CantineTest.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_dialog_cancel_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_dialog_cancel_icon_48x481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_dialog_cancel_icon_48x482">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_dialog_ok_apply_icon_48X48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_dialog_ok_apply_icon_48X481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_document_edit_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_document_save_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_document_save_icon_48x481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_page_zoom_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_tag_new_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_tag_new_icon_96x96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Actions_view_refresh_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register_128__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register_256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register_256__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Large_Business_Cash_register2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Security_Secrecy_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Universal_Shop_Cash_register_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Universal_Shop_Cash_register_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Aha_Soft_Universal_Shop_Cash_register_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.asd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Barcode_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.barcodes_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.barcodes_icon_48x481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.box_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.box_open_icon_barcode_128X128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.box_open_icon_barcode_48X48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Chaninja_Chaninja_File_Help_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Clipboard_Paste_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Clipboard_Paste_icon_48x481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.crest">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.crest1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.crest2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.crest3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Flatastic_9_Logout_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_11_Number_1_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance_48__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Inventory_maintenance4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Sign_up_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Sign_up_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Custom_Icon_Design_Pretty_Office_3_Sign_up_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Dario_Arnaez_Genesis_3G_User_Files_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Dario_Arnaez_Genesis_3G_User_Files_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Edit_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Edit_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Invoice_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Invoice_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Money_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Money_48__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Shopping_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Shopping_256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Shopping_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Shopping_48__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Shopping1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Designcontest_Ecommerce_Business_Shopping2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Diagram_Free_Barcode_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Diagram_Free_Barcode_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Diagram_Free_Barcode_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Ravenna_3d_Credit_Card_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Ravenna_3d_Credit_Card_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Ravenna_3d_Filter_List_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Ravenna_3d_Filter_List_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Ravenna_3d_Filter_List1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Double_J_Design_Ravenna_3d_Filter_List2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Ecommerce_Barcode_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Ecommerce_Barcode_Scanner_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Ecommerce_Barcode_Scanner_icon_48x481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Ecommerce_Barcode_Scanner_icon_48x482">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.File_Excel_icon_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.File_Help_icon_128x128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.fork_1_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.fork_1_icon_256x256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.fork_1_icon_256x2561">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.fork_1_icon_256x2562">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Gakuseisean_Ivista_2_Start_Menu_Search_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Groups_Military_Personnel_Light_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Groups_Military_Personnel_Light_icon1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Hopstarter_Soft_Scraps_Adobe_PDF_Document_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Hopstarter_Soft_Scraps_Adobe_PDF_Document_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Hopstarter_Soft_Scraps_Adobe_PDF_Document1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icojam_Blue_Bits_User_search_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icojam_Blue_Bits_User_search_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Iconarchive_Wild_Camping_Water_Bottle_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Iconarchive_Wild_Camping_Water_Bottle_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icons_Land_Vista_People_Groups_Military_Personnel_Light_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icons_Land_Vista_People_Office_Client_Male_Light_48new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icons_Land_Vista_People_Office_Client_Male_Light_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icons_Land_Vista_People_Office_Client_Male_Light_96__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icons8_Windows_8_Ecommerce_Barcode_Scanner_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Icons8_Windows_8_Ecommerce_Barcode_Scanner1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Kyo_Tux_Aeon_Sign_Add_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Lemon_Liu_Recipes_Recipe_pizza_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Lemon_Liu_Recipes_Recipe_pizza_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.output_onlinepngtools">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.output_onlinepngtools__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.output_onlinepngtools__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.output_onlinepngtools__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Actions_contact_new_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Actions_contact_new_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Actions_dialog_close_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Actions_dialog_close1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Actions_window_close_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Actions_window_close_96">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Oxygen_Icons_org_Oxygen_Apps_preferences_desktop_user_password_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Trash_empty_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Tribalmarkings_Aquave_Cash_Dollar_folder_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Tribalmarkings_Aquave_Cash_Dollar_folder_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Undo_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Visualpharm_Finance_Cash_register_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Visualpharm_Finance_Cash_register_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Visualpharm_Finance_Cash_register1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Visualpharm_Must_Have_Log_Out_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Webiconset_Application_Invoice_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CantineTest.My.Resources.Resources.Webiconset_Application_Invoice_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSet.InventaireDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSet.InventaireRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSet.InventaireRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSetTableAdapters.InventaireTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CantineTest.CantineDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CantineTest.CantineDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CantineTest.CantineDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.UpdateAll(CantineTest.CantineDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CantineTest.CantineDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
