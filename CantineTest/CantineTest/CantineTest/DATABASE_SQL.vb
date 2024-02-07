@@ -2,7 +2,7 @@
 
 Public Class DATABASE_SQL
     Private _Conn As SqlConnection
-    Private Readonly _ConnectionString As String = "TRUSTED_CONNECTION=TRUE;SERVER=10.156.4.77;Initial Catalog=CANTINE;Application Name=Cantine"
+    Private Readonly _ConnectionString As String = "CONNECTION STRING HIDDEN FOR SAFETY REASONS, USE THE LOCAL ACCESS DB INSTEAD"
 
     Protected Sub New()
     End Sub
