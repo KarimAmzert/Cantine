@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AC2E93F-937C-4735-AB5E-114900B88712}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CantineTest.My.MyApplication</StartupObject>
+    <RootNamespace>CantineTest</RootNamespace>
+    <AssemblyName>CantineTest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CantineTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CantineTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>U:\SCO\SCO\MIS\DOM\Karim_Backup\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustPizza.Designer.vb">
+      <DependentUpon>AdjustPizza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdjustPizza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdjustRegister.Designer.vb">
+      <DependentUpon>AdjustRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdjustRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bestsellers.Designer.vb">
+      <DependentUpon>Bestsellers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bestsellers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caisse.Designer.vb">
+      <DependentUpon>Caisse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Caisse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaisseHistory.Designer.vb">
+      <DependentUpon>CaisseHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaisseHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAISSE_ASSEMBLER.vb" />
+    <Compile Include="CAISSE_ASSEMBLER_SQL.vb" />
+    <Compile Include="CAISSE_DTO.vb" />
+    <Compile Include="CantineDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CantineDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CASHCREDIT_DTO.vb" />
+    <Compile Include="CashRegisterBuy.Designer.vb">
+      <DependentUpon>CashRegisterBuy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashRegisterBuy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashRegisterSell.Designer.vb">
+      <DependentUpon>CashRegisterSell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashRegisterSell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkout.Designer.vb">
+      <DependentUpon>Checkout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.vb">
+      <DependentUpon>Client.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.vb">
+      <DependentUpon>Clients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIENT_ASSEMBLER.vb" />
+    <Compile Include="CLIENT_ASSEMBLER_SQL.vb" />
+    <Compile Include="CLIENT_COLLECTION.vb" />
+    <Compile Include="CLIENT_DTO.vb" />
+    <Compile Include="CountSheetPDF.vb" />
+    <Compile Include="CountSheetPDF_PageEvents.vb" />
+    <Compile Include="CustomPrincipal.vb" />
+    <Compile Include="DATABASE_ACCESS.vb" />
+    <Compile Include="Cantine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cantine.Designer.vb">
+      <DependentUpon>Cantine.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItem.Designer.vb">
+      <DependentUpon>AddItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DATABASE_SQL.vb" />
+    <Compile Include="EditClient.Designer.vb">
+      <DependentUpon>EditClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUser.Designer.vb">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FACTUREDETAIL_DTO.vb" />
+    <Compile Include="FACTURE_ASSEMBLER.vb" />
+    <Compile Include="FACTURE_ASSEMBLER_SQL.vb" />
+    <Compile Include="FACTURE_DTO.vb" />
+    <Compile Include="frmAdjustQTY.Designer.vb">
+      <DependentUpon>frmAdjustQTY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdjustQTY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditCart.Designer.vb">
+      <DependentUpon>frmEditCart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditCart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInventoryAdd.Designer.vb">
+      <DependentUpon>frmInventoryAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInventoryAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScrrenSize.Designer.vb">
+      <DependentUpon>FrmScrrenSize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScrrenSize.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions_Specific.vb" />
+    <Compile Include="HISTORIQUE_ASSEMBLER.vb" />
+    <Compile Include="HISTORIQUE_ASSEMBLER_SQL.vb" />
+    <Compile Include="HISTORY_DTO.vb" />
+    <Compile Include="IFormDatagridview.vb" />
+    <Compile Include="INVENTAIRE_ASSEMBLER.vb" />
+    <Compile Include="INVENTAIRE_ASSEMBLER_SQL.vb" />
+    <Compile Include="INVENTORY_COLLECTION.vb" />
+    <Compile Include="INVENTORY_DTO.vb" />
+    <Compile Include="InvoiceDetails.Designer.vb">
+      <DependentUpon>InvoiceDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemHistory.Designer.vb">
+      <DependentUpon>ItemHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItemHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CantineLogin.Designer.vb">
+      <DependentUpon>CantineLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CantineLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthYearFilter.Designer.vb">
+      <DependentUpon>MonthYearFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MonthYearFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewClient.Designer.vb">
+      <DependentUpon>NewClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.vb">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.vb">
+      <DependentUpon>Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayCredit.Designer.vb">
+      <DependentUpon>PayCredit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PayCredit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReasonChange.Designer.vb">
+      <DependentUpon>ReasonChange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReasonChange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.Designer.vb">
+      <DependentUpon>ResetPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchClient.Designer.vb">
+      <DependentUpon>SearchClient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecurityHelper.vb" />
+    <Compile Include="SqlQuery.vb" />
+    <Compile Include="SqlQuery_SQL.vb" />
+    <Compile Include="StockTaking.Designer.vb">
+      <DependentUpon>StockTaking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StockTaking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StocktakingMenu.Designer.vb">
+      <DependentUpon>StocktakingMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StocktakingMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockTakingReportCollection.vb" />
+    <Compile Include="StockTakingReportDTO.vb" />
+    <Compile Include="Strings.vb" />
+    <Compile Include="Transactions.Designer.vb">
+      <DependentUpon>Transactions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHistory.Designer.vb">
+      <DependentUpon>UserHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.vb">
+      <DependentUpon>Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER_ASSEMBLER.vb" />
+    <Compile Include="USER_ASSEMBLER_SQL.vb" />
+    <Compile Include="USER_DTO.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdjustPizza.resx">
+      <DependentUpon>AdjustPizza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdjustRegister.resx">
+      <DependentUpon>AdjustRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bestsellers.resx">
+      <DependentUpon>Bestsellers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caisse.resx">
+      <DependentUpon>Caisse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaisseHistory.resx">
+      <DependentUpon>CaisseHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cantine.resx">
+      <DependentUpon>Cantine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddItem.resx">
+      <DependentUpon>AddItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashRegisterBuy.resx">
+      <DependentUpon>CashRegisterBuy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashRegisterSell.resx">
+      <DependentUpon>CashRegisterSell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Checkout.resx">
+      <DependentUpon>Checkout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditClient.resx">
+      <DependentUpon>EditClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUser.resx">
+      <DependentUpon>EditUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdjustQTY.resx">
+      <DependentUpon>frmAdjustQTY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditCart.resx">
+      <DependentUpon>frmEditCart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInventoryAdd.resx">
+      <DependentUpon>frmInventoryAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScrrenSize.resx">
+      <DependentUpon>FrmScrrenSize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceDetails.resx">
+      <DependentUpon>InvoiceDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemHistory.resx">
+      <DependentUpon>ItemHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CantineLogin.resx">
+      <DependentUpon>CantineLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthYearFilter.resx">
+      <DependentUpon>MonthYearFilter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewClient.resx">
+      <DependentUpon>NewClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayCredit.resx">
+      <DependentUpon>PayCredit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReasonChange.resx">
+      <DependentUpon>ReasonChange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPassword.resx">
+      <DependentUpon>ResetPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchClient.resx">
+      <DependentUpon>SearchClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockTaking.resx">
+      <DependentUpon>StockTaking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StocktakingMenu.resx">
+      <DependentUpon>StocktakingMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions.resx">
+      <DependentUpon>Transactions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHistory.resx">
+      <DependentUpon>UserHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="CantineDataSet.xsc">
+      <DependentUpon>CantineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CantineDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CantineDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CantineDataSet.xss">
+      <DependentUpon>CantineDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cantine.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Webiconset-Application-Invoice.64.png" />
+    <None Include="Resources\Icons-Land-Vista-People-Groups-Military-Personnel-Light.128.png" />
+    <None Include="Resources\Icojam-Blue-Bits-User-search.96.png" />
+    <None Include="Resources\Icojam-Blue-Bits-User-search.128.png" />
+    <None Include="Resources\Icons-Land-Vista-People-Office-Client-Male-Light.48new.png" />
+    <None Include="Resources\asd.png" />
+    <None Include="Resources\Icons-Land-Vista-People-Office-Client-Male-Light.96 %281%29.png" />
+    <None Include="Resources\Icons-Land-Vista-People-Office-Client-Male-Light.96.png" />
+    <None Include="Resources\Lemon-Liu-Recipes-Recipe-pizza.128.png" />
+    <None Include="Resources\Lemon-Liu-Recipes-Recipe-pizza.48.png" />
+    <None Include="Resources\Tribalmarkings-Aquave-Cash-Dollar-folder.72.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Invoice.72.png" />
+    <None Include="Resources\Aha-Soft-Universal-Shop-Cash-register.72.png" />
+    <None Include="Resources\Aha-Soft-Universal-Shop-Cash-register.128.png" />
+    <None Include="Resources\Tribalmarkings-Aquave-Cash-Dollar-folder.48.png" />
+    <None Include="Resources\Aha-Soft-Universal-Shop-Cash-register.48.png" />
+    <None Include="Resources\Dario-Arnaez-Genesis-3G-User-Files.128.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Apps-preferences-desktop-user-password.72.png" />
+    <None Include="Resources\Custom-Icon-Design-Flatastic-9-Logout.96.png" />
+    <None Include="Resources\Visualpharm-Must-Have-Log-Out.128.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-window-close.96.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-window-close.128.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Sign-up.128.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-contact-new.96.png" />
+    <None Include="Resources\Dario-Arnaez-Genesis-3G-User-Files.64.png" />
+    <None Include="Resources\Aha-Soft-Security-Secrecy.48.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-contact-new.64.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Sign-up.64.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Sign-up.48.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.64.png" />
+    <None Include="Resources\Hopstarter-Soft-Scraps-Adobe-PDF-Document.72.png" />
+    <None Include="Resources\Hopstarter-Soft-Scraps-Adobe-PDF-Document.1281.png" />
+    <None Include="Resources\Hopstarter-Soft-Scraps-Adobe-PDF-Document.128.png" />
+    <None Include="Resources\crest1.png" />
+    <None Include="Resources\crest.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.48 %281%29.png" />
+    <None Include="Resources\Groups-Military-Personnel-Light-icon1.png" />
+    <None Include="Resources\Webiconset-Application-Invoice.128.png" />
+    <None Include="Resources\Actions-document-save-icon_48x481.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-11-Number-1.48.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Money.48 %281%29.png" />
+    <None Include="Resources\Double-J-Design-Diagram-Free-Barcode.128.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Edit.128.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Edit.48.png" />
+    <None Include="Resources\Double-J-Design-Diagram-Free-Barcode.64.png" />
+    <None Include="Resources\Double-J-Design-Diagram-Free-Barcode.48.png" />
+    <None Include="Resources\Chaninja-Chaninja-File-Help.48.png" />
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Credit-Card.48.png" />
+    <None Include="Resources\Iconarchive-Wild-Camping-Water-Bottle.64.png" />
+    <None Include="Resources\Iconarchive-Wild-Camping-Water-Bottle.512.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Money.48.png" />
+    <None Include="Resources\output-onlinepngtools %282%291.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.256 %281%291.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Shopping.48 %281%292.png" />
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Filter-List.321.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-dialog-close.321.png" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-dialog-close.32.png" />
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Filter-List.32.png" />
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Filter-List.481.png" />
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Filter-List.48.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Shopping.48 %281%291.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Shopping.48 %281%29.png" />
+    <None Include="Resources\output-onlinepngtools %281%29.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.256 %281%29.png" />
+    <None Include="Resources\output-onlinepngtools %282%29.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.128 %281%291.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.128 %281%29.png" />
+    <None Include="Resources\output-onlinepngtools.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.1282.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.1281.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.481.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.128.png" />
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-3-Inventory-maintenance.48.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Invoice.48.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Shopping.128.png" />
+    <None Include="Resources\Visualpharm-Finance-Cash-register.1281.png" />
+    <None Include="Resources\Icons8-Windows-8-Ecommerce-Barcode-Scanner.1281.png" />
+    <None Include="Resources\Visualpharm-Finance-Cash-register.128.png" />
+    <None Include="Resources\Icons8-Windows-8-Ecommerce-Barcode-Scanner.128.png" />
+    <None Include="Resources\Undo-icon.png" />
+    <None Include="Resources\Gakuseisean-Ivista-2-Start-Menu-Search.24.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Shopping.256.png" />
+    <None Include="Resources\Trash-empty-icon.png" />
+    <None Include="Resources\Actions-dialog-cancel-icon_48x482.png" />
+    <None Include="Resources\Kyo-Tux-Aeon-Sign-Add.48.png" />
+    <None Include="Resources\Actions-dialog-ok-apply-icon_48X481.png" />
+    <None Include="Resources\Visualpharm-Finance-Cash-register.48.png" />
+    <None Include="Resources\Designcontest-Ecommerce-Business-Shopping.48.png" />
+    <None Include="Resources\Ecommerce-Barcode-Scanner-icon_48x482.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.256.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.128.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.64.png" />
+    <None Include="Resources\Aha-Soft-Large-Business-Cash-register.48.png" />
+    <None Include="Resources\Clipboard-Paste-icon_48x481.png" />
+    <None Include="Resources\barcodes-icon_48x481.png" />
+    <None Include="Resources\box-icon_48x48.png" />
+    <None Include="Resources\Groups-Military-Personnel-Light-icon.png" />
+    <None Include="Resources\Actions-page-zoom-icon_48x48.png" />
+    <None Include="Resources\crest.gif" />
+    <None Include="Resources\Barcode-icon_48x48.png" />
+    <None Include="Resources\Actions-dialog-cancel-icon_48x481.png" />
+    <None Include="Resources\Actions-dialog-ok-apply-icon_48X48.png" />
+    <None Include="Resources\Actions-view-refresh-icon_48x48.png" />
+    <None Include="Resources\Clipboard-Paste-icon_48x48.png" />
+    <None Include="Resources\Actions-dialog-cancel-icon_48x48.png" />
+    <None Include="Resources\Actions-document-save-icon_48x48.png" />
+    <None Include="Resources\fork-1-icon_256x2562.png" />
+    <None Include="Resources\box-open-icon_barcode_128X128.png" />
+    <None Include="Resources\box-open-icon_barcode_48X48.png" />
+    <None Include="Resources\fork-1-icon.png" />
+    <None Include="Resources\Ecommerce-Barcode-Scanner-icon_48x481.png" />
+    <None Include="Resources\fork-1-icon_256x2561.png" />
+    <None Include="Resources\File-Help-icon_128x128.png" />
+    <None Include="Resources\fork-1-icon_256x256.png" />
+    <None Include="Resources\Actions-document-edit-icon_48x48.png" />
+    <None Include="Resources\File-Excel-icon_48x48.png" />
+    <None Include="Resources\barcodes-icon_48x48.png" />
+    <None Include="Resources\Ecommerce-Barcode-icon_48x48.png" />
+    <None Include="Resources\Ecommerce-Barcode-Scanner-icon_48x48.png" />
+    <None Include="Resources\Actions-tag-new-icon_48x48.png" />
+    <None Include="Resources\Actions-tag-new-icon_96x96.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
